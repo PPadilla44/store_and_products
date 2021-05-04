@@ -13,6 +13,3 @@ class Product:
     def print_info(self):
         print(f"Name: {self.name}, Price: {self.price}, Category: {self.category}")
         return self
-
-# pab = Product("pablo", 100, "humans")
-# pab.print_info().update_price(.05, True).print_info().update_price(.10, False).print_info()
